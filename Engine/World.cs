@@ -129,7 +129,7 @@ namespace Engine
             Location guardPost = new Location(LOCATION_ID_GUARD_POST, "Guard post", "There is a large, tough-looking guard here.",
                 ItemByID(ITEM_ID_ADVENTURER_PASS));
 
-            Location bridge = new Location(LOCATION_ID_BRIDGE, "Bridge", "A stone bridge crosses a wide river.");
+            Location bridge = new Location(LOCATION_ID_BRIDGE, "Bridge", "A stone bridge crosses a very wide river.");
 
             Location spiderField = new Location(LOCATION_ID_SPIDER_FIELD, "Forest", "You see spider webs covering the trees in this forest.");
             spiderField.MonsterLivingHere = MonsterByID(MONSTER_ID_GIANT_SPIDER);

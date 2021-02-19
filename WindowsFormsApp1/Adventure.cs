@@ -488,5 +488,11 @@ namespace WindowsFormsApp1
             rtbMessages.SelectionStart = rtbMessages.Text.Length;
             rtbMessages.ScrollToCaret();
         }
+
+        private void IsImmortal()
+        {
+            Console.WriteLine("no is not");
+        }
+
     }
 }
