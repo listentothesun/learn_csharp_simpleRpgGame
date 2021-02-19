@@ -489,10 +489,5 @@ namespace WindowsFormsApp1
             rtbMessages.ScrollToCaret();
         }
 
-        private void IsImmortal()
-        {
-            Console.WriteLine("no is not");
-        }
-
     }
 }
